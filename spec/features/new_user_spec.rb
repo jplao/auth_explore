@@ -15,6 +15,6 @@ describe 'user can create a new user login' do
 
     click_on "Create User"
 
-    expect(current_path).to eq users_path
+    expect(current_path).to eq user_path(User.last)
   end
 end
