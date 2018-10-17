@@ -4,9 +4,17 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
+  def index
+  end
+
   def create
-    user = User.create(user_params)
-    redirect_to(user_path(user))
+    @user = User.create(user_params)
+    if @user.save
+      session[:user_id] = @user.id
+      redirect_to user_path(@user)
+    else
+      render :new
+    end
   end
 
   def show
@@ -14,7 +22,7 @@ class UsersController < ApplicationController
   end
 
   private
-    def user_params
-      params.require(:user).permit(:name, :email, :password)
-    end
+  def user_params
+    params.require(:user).permit(:name, :email, :password)
+  end
 end

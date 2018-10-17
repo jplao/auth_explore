@@ -182,10 +182,34 @@
         1,
         null,
         1,
+        null,
+        1,
         null
       ],
       "/Users/jenniferlao/turing/mod2/auth_explore/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/jenniferlao/turing/mod2/auth_explore/spec/features/new_user_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
         null
       ],
       "/Users/jenniferlao/turing/mod2/auth_explore/spec/models/user_spec.rb": [
@@ -196,6 +220,8 @@
         2,
         2,
         2,
+        2,
+        2,
         null,
         null,
         null
@@ -203,6 +229,18 @@
       "/Users/jenniferlao/turing/mod2/auth_explore/app/models/user.rb": [
         1,
         1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/jenniferlao/turing/mod2/auth_explore/app/models/application_record.rb": [
@@ -218,8 +256,16 @@
         null,
         null,
         1,
+        null,
+        null,
         1,
         1,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
         null,
         null,
         1,
@@ -249,6 +295,6 @@
         null
       ]
     },
-    "timestamp": 1539808158
+    "timestamp": 1539811325
   }
 }
